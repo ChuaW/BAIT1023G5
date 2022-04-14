@@ -1,0 +1,11 @@
+.policy table ,td, th { 
+    border: 1px solid;
+            
+}
+
+.policy table {
+    width: 20%;
+    border-collapse: collapse;
+    margin: center;
+    padding: 5px;    
+}
