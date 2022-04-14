@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>BlAcK mArKeT</title>
+    <link rel="stylesheet" href="CSS/side_bar.css">
+    <link rel="stylesheet" href="CSS/base.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/search.css">
+    <link rel="stylesheet" href="CSS/contactus.css">
+    <link rel="stylesheet" href="CSS/our_story.css">
+    <link rel="stylesheet" href="CSS/privacy.css">
+    <link rel="stylesheet" href="CSS/refund.css">
+    <script src="JS/sidebar.js"></script>
+    <script src="JS/search.js"></script>
+    <script src="contactus.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+      <div id="sidebar" class="Sidebar">
+          <a href="javascript:void(0)" class="Sclosebtn" onclick="closeNav()">X</a>
+          <a href="#" class="btn">HOME</a>
+          <a href="#" class="btn">ABOUT</a>
+          <button class="dropdown-btn" id="btn">SHOP 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-container">
+            <a href="#">SHOP ALL</a>
+            <a href="#">TOP</a>
+            <a href="#">BOTTOM</a>
+            <a href="#">OUTERWEAR</a>
+          </div>
+          <a href="#" class="btn">MEMBERSHIP</a>
+      </div>
+
+      <div class="main">
+        <div class="left">
+          <div class="Sopenbtn" onclick="openNav()">☰ </div>
+        </div>
+
+        <div class="center">
+          <a href="homepage.html">BlacK MarkeT</a>
+        </div>
+
+        <div id="myOverlay" class="overlay">
+          <span class="closebtn" onclick="closeSearch()" title="Close Overlay">x</span>
+          <div class="overlay-content">
+            <form action="action_page.php">
+              <input type="text" placeholder="Search.." name="search">
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+          </div>
+        </div>
+
+        <i class="material-icons" class="openBtn" id="top_nav_btn1" onclick="openSearch()" style="font-size: xx-large;">search</i>
+             
+        <div>
+          <i class="material-icons" id="top_nav_btn2" style="font-size: xx-large;"><a href="#">account_box</a></i>
+        </div>
+
+        <div>
+          <i class="material-icons" id="top_nav_btn3" style="font-size: xx-large;"><a href="#">shopping_cart</a></i>
+        </div>
+
+        <script>
+          var dropdown = document.getElementsByClassName("dropdown-btn");
+          var i;
+          
+          for (i = 0; i < dropdown.length; i++) {
+            dropdown[i].addEventListener("click", function() {
+            var dropdownContent = this.nextElementSibling;
+            if (dropdownContent.style.display === "block") {
+            dropdownContent.style.display = "none";
+            } else {
+            dropdownContent.style.display = "block";
+            }
+            });
+          }
+          </script>
+    </header>
+    
+
+
+
+
+    <section>
+      <div class="c1">
+        <h1 >Contact us</h1><br>
+        <div class="hotline"></div>
+        <h2 >Customer Service Hotline</h2><br>
+        <h3><a href="tel:+60162833123">+60162833123</a> </h3><br>
+        <h2 >Email</h2><br>
+        <h3><a href="mailto:blackmarket22@gmail.com">blackmarket22@gmail.com</a></h3><br>
+      </div>
+
+        <form class="form">
+
+
+          <textarea id="name" name="username" rows="4" cols="100" placeholder="name"></textarea><br>
+            <textarea id="phone_number" name="phone_number" rows="4" cols="100" placeholder="phone number"></textarea><br>
+          <textarea id="message" name="message" placeholder="message" rows="10" cols="100" ></textarea>
+            <br><br>
+            <div class="button>">
+            <button type="submitform" class="submit" value="Submit" onclick="submited()">submit</button>
+            </div>
+          </form>
+      </div>
+    </section>
+
+    <script>
+      function submited() {
+        alert("You had submited");
+      }
+      </script>
+
+
+
+
+    <footer>
+      <div class="footer_container">
+        <div class="footerBox">
+          <ul>
+            <li class="footerHead">ABOUT</li>
+            <li><a href="#">STORY</a></li>
+          </ul>
+        </div>
+
+        <div class="footerBox">
+          <ul>
+            <li class="footerHead">LOCATIONS</li>
+            <li><iframe class="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.5342401009584!2d101.7268275502969!3d3.216169653622467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc3843bfb6a031%3A0x2dc5e067aae3ab84!2z5ouJ5pu85aSn5a2m5a2m6Zmi!5e0!3m2!1szh-CN!2sus!4v1647432306989!5m2!1szh-CN!2sus"  allowfullscreen="" loading="lazy"></iframe></li>
+          </ul>
+        </div>
+
+        <div class="footerBox">
+          <ul>
+            <li class="footerHead">INFORMATION</li>
+            <li><a href="#">PRIVACY POLICY</a></li>
+            <li><a href="#">REFUND POLICY</a></li>
+            <li><a href="#">SHIPPING POLICY</a></li>
+            <li><a href="#">SHIPPING INFORMATION</a></li>
+          </ul>
+        </div>
+
+        <div class="footerBox">
+          <ul>
+            <li class="footerHead">Newsletter</li>
+            <li>
+              <form method="post" action="#">
+                <input type="email" id="email" name="email" placeholder="email@example.com">
+                <input type="submit" value="Submit">
+              </form>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="bottom_footer">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-whatsapp"></a>
+        <P>© 2022, BlacK MarkeT Group.</P>
+      </div>
+    </footer>
+</body>
+    
