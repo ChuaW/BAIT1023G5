@@ -1,0 +1,45 @@
+.toptext{
+  font-size: xx-large;
+  color: black;
+  width: 80px;
+  border-bottom: 3px solid ;
+  border-top: 3px solid ;
+  padding: 10px;
+  margin: 5px 5px 0px 48%;
+  font-family:'Courier New', Courier, monospace;
+  text-align: center;
+}
+.bottomtext{
+  font-size: xx-large;
+  color: black;
+  width: 130px;
+  border-bottom: 3px solid ;
+  border-top: 3px solid ;
+  padding: 10px;
+  margin: 0px 5px 0px 48%;
+  font-family:'Courier New', Courier, monospace;
+  text-align: center;
+}
+.outerweartext{
+  font-size: xx-large;
+  color: black;
+  width: 190px;
+  border-bottom: 3px solid ;
+  border-top: 3px solid ;
+  padding: 10px;
+  margin: 0px 5px 0px 48%;
+  font-family:'Courier New', Courier, monospace;
+  text-align: center;
+}
+.top_content{
+  display: flex;
+  flex-wrap: wrap;
+}
+.bottom_content{
+  display: flex;
+  flex-wrap: wrap;
+}
+.outerwear_content{
+  display: flex;
+  flex-wrap: wrap;
+}

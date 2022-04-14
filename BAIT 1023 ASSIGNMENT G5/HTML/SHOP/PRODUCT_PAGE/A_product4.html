@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>BlacK MarkeT</title>
+    <link rel="stylesheet" href="../../../CSS/side_bar.css">
+    <link rel="stylesheet" href="../../../CSS/base.css">
+    <link rel="stylesheet" href="../../../CSS/footer.css">
+    <link rel="stylesheet" href="../../../CSS/diffscreen.css">
+    <link rel="stylesheet" href="../../../CSS/product.css">
+    <script src="../../../JS/sidebar.js"></script>
+    <script src="../../../JS/search.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <header>
+    <div class="topnav">
+       <div id="sidebar" class="Sidebar">
+         <a href="javascript:void(0)" class="Sclosebtn" onclick="closeNav()">X</a>
+         <a href="../../../A_homepage.html" class="btn">HOME</a>
+         <a href="../../ABOUTUS/#" class="btn">ABOUT</a>
+         <a class="dropdown-btn" id="btn" >SHOP 
+          <i class="fa fa-caret-down"></i>
+         </a>
+        <div class="dropdown-container" >
+          <a href="../A_shop.html">SHOP ALL</a>
+          <a href="../A_top.html">TOP</a>
+          <a href="../A_bottom.html">BOTTOM</a>
+          <a href="../A_outerwear.html">OUTERWEAR</a>
+        </div>
+        <a href="../../MYACCOUNT/#" class="btn">MEMBERSHIP</a>
+    </div>
+
+      <div class="main">
+        <div class="left">
+        <div class="Sopenbtn" onclick="openNav()">☰ </div>
+        </div>
+    </div>
+
+      <div class="center">
+        <a href="../../../A_homepage.html">BlacK MarkeT</a>
+      </div>
+   
+
+      <div class="right_top_nav">
+         
+        <a href="HTML/CART/#">     <i class="material-icons" id="top_nav_btn" style="font-size: xx-large;">shopping_cart</i></a>
+        <a href="HTML/MYACCOUNT/#"><i class="material-icons" id="top_nav_btn1" style="font-size: xx-large;">account_circle</i></a>
+     </div>
+     </div>
+     <script src="../../../JS/sidebar_dropdown.js"></script>
+  </header>
+
+   <div class="productcontainer">
+    <div class="pimg">
+      <div class="slideshow-container">
+        <div class="mySlides" >
+          <img src="../../../Product/product4/Product4_Black.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides">
+          <img src="../../../Product/product4/Product4_Black_1.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides">
+          <img src="../../../Product/product4/Product4_Black_2.jpg" style="width:100%">
+        </div>
+
+        <div class="mySlides">
+          <img src="../../../Product/product4/Product4_Black_3.jpg" style="width:100%">
+        </div>
+        
+        <a class="prev" onclick = "plusSlides(-1)"> ❮ </a>
+        <a class="next" onclick = "plusSlides(1)"> ❯ </a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+          <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+        <script src="../../../JS/product.js"></script>
+        <div class="detailimg">
+          <p class="PColor">BLACK</p>
+        <div class="pimage">
+        <img src="../../../Product/product4/Product4_Black.jpg" style="width:50%">
+        <img src="../../../Product/product4/Product4_Black_1.jpg" style="width:50%">
+        <img src="../../../Product/product4/Product4_Black_2.jpg" style="width:50%">
+        <img src="../../../Product/product4/Product4_Black_3.jpg" style="width:50%">
+         </div>
+        </div>
+    </div>
+    <div class="pinfo">
+      <div class="pname"><h1>#FR2 EPIC Duel Longsleeve T-shirt</h1></div>
+      <div class="pprice"><h2>MYR 350</h2></div>
+      <div class="cpcolor">
+        <label for="colour">SELECT A COLOUR: </label><br>
+        <div for="colour">COLOUR: </div><br>
+        <div >BLACK</div>
+       </div>
+       <div class="cpsize">
+        <div style="font-size: x-large;">SELECT A SIZE: </div><br>
+          <button onclick="select_M()" id="size_btnm" type="button">M</button>
+          <button onclick="select_L()" id="size_btnl" type="button">L</button>
+          <button onclick="select_XL()" id="size_btnxl" type="button">XL</button>
+        </div>
+         <div style="font-size: x-large;	width: 100%;padding: 10px 0px 20px 20px;">QUANTITY:</div>
+       <div class="cpquantity"> 
+         <button onclick="M1()" id="add_btn" type="button">-</button>
+         <p id="quantity_number"></p>
+         <button onclick="P1()" id="add_btn" type="button">+</button>
+          </div>
+          <div class="addtoc">
+          <button class="addtocbtn" onclick="clicksubmit()">ADD TO CART</button>
+         </div>
+         <script src="../../../JS/save_product4_data.js"></script>
+
+      <div class="pdescribe"><div style="font-size: x-large;">MATERIALS:</div>
+       <div class="pmaterials"><br>100% cotton</div></div>
+       <div class="psizechart"><p style="font-size: x-large;">Size Chart</p><br>
+        <table class="psizecharttable">
+          <tr>
+            <th>size(CM)</th>
+            <th>Arm length</th>
+            <th>Length</th>
+            <th >Shoulder length</th>
+            <th>Body width</th>
+          </tr>      
+          <tr>
+            <th>M</th>
+            <td>63.0</td>
+            <td>72.5</td>
+            <td>52.0</td>
+            <td>49.5</td>
+          </tr>
+          <tr>
+            <th>L</th>
+            <td>63.0</td>
+            <td>75.5</td>
+            <td>56.0</td>
+            <td>51.0</td>
+          </tr>
+          <tr>
+            <th>XL</th>
+            <td>63.5</td>
+            <td>78.0</td>
+            <td>60.5</td>
+            <td>55.5</td>
+          </tr>
+    
+        </table>
+      </div>
+      </div>
+   </div>
+  </div>
+    <footer>
+      <div class="footer_container">
+        <div class="footerBox">
+          <ul>
+            <li class="footerHead">ABOUT</li>
+            <li><a href="../../ABOUTUS/">STORY</a></li>
+          </ul>
+        </div>
+
+        <div class="footerBox">
+          <ul>
+            <li class="footerHead">LOCATIONS</li>
+            <li><iframe class="googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.5342401009584!2d101.7268275502969!3d3.216169653622467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc3843bfb6a031%3A0x2dc5e067aae3ab84!2z5ouJ5pu85aSn5a2m5a2m6Zmi!5e0!3m2!1szh-CN!2sus!4v1647432306989!5m2!1szh-CN!2sus"  allowfullscreen="" loading="lazy"></iframe></li>
+          </ul>
+        </div>
+
+        <div class="footerBox">
+          <ul>
+            <li class="footerHead">INFORMATION</li>
+            <li><a href="../../ABOUTUS/">PRIVACY POLICY</a></li>
+            <li><a href="../../ABOUTUS/">REFUND POLICY</a></li>
+            <li><a href="../../">SHIPPING INFORMATION</a></li>
+          </ul>
+        </div>
+
+        <div class="footerBox">
+          <ul>
+            <li class="footerHead">Newsletter</li>
+            <li>
+              <form method="post" action="#">
+                <input type="email" id="email" name="email" placeholder="email@example.com">
+                <input type="submit" value="Submit">
+              </form>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="bottom_footer">
+        <a href="https://www.facebook.com/gan.chanheng.98" class="fa fa-facebook"></a>
+        <a href="https://www.instagram.com/_ahhengheng_/" class="fa fa-instagram"></a>
+        <a href="https://api.whatsapp.com/send?phone=60162833812" class="fa fa-whatsapp"></a>
+        <P>© 2022, BlacK MarkeT Group.</P>
+      </div>
+    </footer>
+</body>
+    

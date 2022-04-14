@@ -1,0 +1,147 @@
+@charset "utf-8";
+*{
+    box-sizing: border-box;
+}
+body{
+	border: 0;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgb(255, 255, 255);
+	font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+
+.main  {
+	background-color: black;
+	margin: 0;
+    padding: 2px;
+	color: white;
+	text-align:center;
+	display: flex;
+}
+
+.center{
+	position: relative;
+	top: 5px;
+	left: 50px;
+	color: white;
+	font-size: xx-large;
+	padding: 10px;
+	font-family: 'Courier New', Courier, monospace;
+	width: 95%;
+}
+
+.right_top_nav{
+	display: flex;
+    width: 200px;
+}
+
+
+#top_nav_btn{
+	padding: 20px;
+    margin-left: 40px;
+}
+#top_nav_btn1{
+	padding: 20px;
+}
+.categorycard_image{
+	width: 400px;
+	height: 400px;
+	margin: 40px 20px 0px 10px;
+}
+
+#top_nav_btn:hover,#top_nav_btn1:hover{
+	background-color: #444;
+}
+.topnav{
+	display: flex;
+	background-color: black;
+}
+.googlemap{
+	width: 200; 
+	height:450;
+	border: 3px outset #444;
+}
+.image{
+	width: 474.4px;
+	height: 480px;
+}
+.main_content{
+	display: flex;
+}
+  
+  .image {
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .newarrival{
+	  text-align: center;
+	  font-family: 'Courier New', Courier, monospace;
+	  font-size: 40px;
+	  width: 100%;
+	  line-height: 2.5;
+	  background-color: rgb(43, 43, 43);
+	  color: white;
+}
+
+.bottom_content1{
+	display: flex;
+	flex-wrap: wrap;
+}
+  .newarrivalcard {
+	transition: 0.3s;
+	width: 260px;
+	background-color:rgb(255, 255, 255);
+	margin: 10px 10px 10px 40px;
+	flex-shrink: 1;
+  }
+  #newarrivalcard1{
+	margin:0px 10px 10px 350px;
+  }
+  .newarrivalcard_image{
+	  height: 260px;
+	  width: 260px;
+  }
+  
+  .newarrivalcard:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+  }
+  
+  .newarrivalcontainer {
+	padding: 2px 16px;
+	color: black;
+	background-color:rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;  
+}
+
+  .categorycard {
+	transition: 0.3s;
+	width: 100%;
+	background-color:rgb(255, 255, 255);
+	margin: 0px 0px 10px 0px;
+  }
+  
+  .categorycard:hover {
+	box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.5);
+  }
+
+  
+  .categorycontainer {
+	padding: 14px 16px;
+	color: black;
+	background-color:rgb(255, 255, 255);
+	font-size: 30px;
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+  }
+
+  

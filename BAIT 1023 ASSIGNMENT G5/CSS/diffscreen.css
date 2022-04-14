@@ -1,0 +1,21 @@
+@media only screen and (max-width: 600px) {
+	.center{
+		width: 100%;
+		text-align: justify;
+		padding: 10px 10px 10px 50px;
+	}
+	#top_nav_btn,#top_nav_btn1{
+		display: none;
+	}
+	footer{
+		width:100%;
+	}
+	.footer_container{
+		display: block;
+		width: 100%;
+		padding-bottom: 20px;
+	}
+	.bottom_footer{
+		margin-top: -16px;
+	}
+  }

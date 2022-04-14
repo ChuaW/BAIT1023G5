@@ -1,0 +1,64 @@
+footer{
+    margin-bottom:-100px ;
+    width: 100%;
+}
+.footer_container ul{
+    list-style-type: none;
+    color: white;
+}
+.footer_container{
+    display: flex;
+    background-color: black;
+}
+.footerBox{
+    flex-basis: 100%;
+    line-height: 30px;
+}
+.footerBox li{
+    font-size: small;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+.footerBox .footerHead{
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.footerBox a:hover{
+    background-color: white;
+    color: black;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 10px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    color: white;
+  }
+  
+  .fa-instagram {
+    color: white;
+  }
+  .fa-whatsapp {
+    color: white;
+  }
+
+  .bottom_footer{
+      background-color: black;
+      text-align: center;
+  }
+
+  .bottom_footer p{
+      color: white;
+      font-size: smaller;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
