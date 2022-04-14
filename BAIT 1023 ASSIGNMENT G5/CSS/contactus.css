@@ -1,0 +1,39 @@
+
+.title {
+    text-align: center;
+    font-size: 25px;
+    margin: auto;
+
+  }
+
+.c1 {
+
+  width: 50%;
+  margin: auto;
+  padding-left: 10px;
+  text-align: left;
+  min-width: 200px;
+
+
+}
+.form{
+  margin: auto;
+  text-align:center;
+
+}
+.name {
+  text-align:center;
+}
+.div {
+  display: flex;
+}
+
+.c1 > h1 {
+  color: white;
+}
+.c1 > h2 {
+  color: white;
+}
+.c1 > h3 {
+  color: white;
+}

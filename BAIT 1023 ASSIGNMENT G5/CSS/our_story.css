@@ -1,0 +1,18 @@
+.our_story {
+    width: 1100px;
+    padding: 70px;
+    margin: auto;
+    background-color:white;
+    border-style: outset;
+    border-color: black;
+    text-align: center;
+    font-size: 25px;
+    line-height: 150%;
+    border: 15px solid gray;
+}
+.title {
+    text-align: center;
+    color: white;
+    
+}
+

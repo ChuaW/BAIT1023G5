@@ -1,0 +1,21 @@
+.privacy {
+    width: 1100px;
+    padding: 70px;
+    margin: auto;
+    background-color:white;
+    border-style: outset;
+    border-color: black;
+    text-align: center;
+    font-size: 20px;
+    line-height: 150%;
+    border: 15px solid black;
+}
+.privacy > h2 {
+    font-size: 20px;
+
+}
+
+.privacy > p {
+    padding-left: 50px;
+
+}
